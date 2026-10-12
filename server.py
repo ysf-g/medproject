@@ -5,7 +5,7 @@ from openai import OpenAI
 
 app = Flask(__name__)
 
-PI_SECRET_KEY = os.environ.get("PI_KEY")
+PI_SECRET_KEY = os.environ.get("PI_SECRET_KEY")
 OPENAI_KEY = os.environ.get("OPENAI_API_KEY")
 
 if OPENAI_KEY:
